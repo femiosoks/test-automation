@@ -9,5 +9,5 @@ test('Login to SauceDemo', async ({ page }) => {
 
   await expect(page).toHaveURL(/inventory/);
 
-  await page.waitForTimeout(5000); // So you can SEE it
+
 });

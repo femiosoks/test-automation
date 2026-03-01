@@ -25,4 +25,18 @@ describe("SauceDemo Login", function() {
         const url = await driver.getCurrentUrl();
         expect(url).to.include("inventory.html");
     });
+
+//     it("should login with valid credentials", async () => {
+//     await driver.findElement(By.id("user-name")).sendKeys("standard_user");
+//     await driver.sleep(1000);
+
+//     await driver.findElement(By.id("password")).sendKeys("secret_sauce");
+//     await driver.sleep(1000);
+
+//     await driver.findElement(By.id("login-button")).click();
+//     await driver.sleep(3000);
+
+//     const url = await driver.getCurrentUrl();
+//     expect(url).to.include("inventory.html");
+// });
 });
